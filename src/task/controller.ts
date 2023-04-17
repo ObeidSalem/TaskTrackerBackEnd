@@ -70,7 +70,7 @@ const updateTaskById = (req, res) => {
     })
 }
 
-module.exports = {
+export {
     getTasks,
     getTaskById,
     addTask,

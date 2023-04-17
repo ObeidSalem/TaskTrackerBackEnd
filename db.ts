@@ -15,18 +15,5 @@ const pool = new Pool({
 
 })
 
-module.exports = pool;
-
-// pool.connect()
-
-// pool.query(`SELECT * FROM tasks`, (err, result) => {
-    
-//     if (!err) {
-//         console.log(result.rows)
-
-//     } else {
-//         console.log(err.message)
-
-//     }
-//     pool.end;
-// })
+export {}
+// module.exports = pool;
